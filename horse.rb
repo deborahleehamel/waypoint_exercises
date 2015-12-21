@@ -8,9 +8,11 @@ class Horse
   end
 
   def gallop
+    @galloping = true
   end
 
   def rest
+    @galloping = false
   end
 end
 
