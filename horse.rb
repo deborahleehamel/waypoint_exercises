@@ -4,7 +4,7 @@ class Horse
   end
 
   def galloping?
-    @galloping = true
+    @galloping = false
   end
 
   def gallop
