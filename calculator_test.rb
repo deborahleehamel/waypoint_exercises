@@ -21,7 +21,7 @@ class CalculatorTest < Minitest::Test
   def test_subtracting_from_total
     calculator = Calculator.new
     calculator.subtract (1)
-    calculator.add (2).
+    calculator.add (2)
     calculator.add (2)
     calculator.subtract (1)
     assert_equal 2, calculator.total
